@@ -14,11 +14,10 @@
 </head>
 <body>
 <form action="z5.php" method="POST">
-    <label>PODAJ NAPIS NR 1: <input type="text" name="word_1"></label>
+    <label>Podaj napis nr 1: <input type="text" name="word_1"></label>
     <br />
-    <label>PODAJ NAPIS NR 2: <input type="text" name="word_2"></label>
+    <label>Podaj napis nr 2: <input type="text" name="word_2"></label>
     <br />
-
     <input type="submit" name="submit">
     <br /><br />
 </form>
@@ -30,14 +29,10 @@ if (isset($_POST['word_1']) &&
 ) {
     $word_1 = $_POST['word_1'];
     $word_2 = $_POST['word_2'];
-
     echo "\"%" . $word_2 . " " . $word_1 . "%$#\"";
-
 } else {
     echo "blad";
 }
-
 ?>
-
 </body>
 </html>

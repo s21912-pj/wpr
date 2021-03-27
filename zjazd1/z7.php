@@ -70,6 +70,5 @@ if (isset($_POST['month']) &&
     echo "blad";
 }
 ?>
-
 </body>
 </html>

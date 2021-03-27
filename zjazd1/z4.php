@@ -21,7 +21,6 @@
     <input type="submit" name="submit">
     <br />
 </form>
-
 <?php
 
 if (isset($_POST['num_1']) &&
@@ -29,7 +28,6 @@ if (isset($_POST['num_1']) &&
     !empty($_POST['num_1']) &&
     !empty($_POST['num_2'])
 ) {
-
     $num_1 = $_POST['num_1'];
     $num_2 = $_POST['num_2'];
 
@@ -37,12 +35,9 @@ if (isset($_POST['num_1']) &&
     echo "<br />odejmowanie: " . ($num_1 - $num_2);
     echo "<br />mnozenie: " . ($num_1 * $num_2);
     echo "<br />modulo: " . ($num_1 % $num_2);
-
 } else {
     echo "<br />blad";
 }
-
 ?>
-
 </body>
 </html>

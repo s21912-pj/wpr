@@ -23,9 +23,7 @@
     <input type="submit" name="submit">
     <br /><br />
 </form>
-
 <?php
-
 if (isset($_POST['a']) &&
     isset($_POST['b']) &&
     isset($_POST['c']) &&
@@ -48,12 +46,9 @@ if (isset($_POST['a']) &&
     } else {
         echo "nie mozna zbudowac trojkata";
     }
-
 } else {
     echo "blad";
 }
-
 ?>
-
 </body>
 </html>

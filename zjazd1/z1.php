@@ -13,10 +13,8 @@
     </style>
 </head>
 <body>
-
 <?php
-echo "Witaj w swiecie PHP!";
+    echo "Witaj w swiecie PHP!";
 ?>
-
 </body>
 </html>

@@ -21,7 +21,6 @@
     <input type="submit" name="submit">
     <br />
 </form>
-
 <?php
 if (isset($_POST['a']) &&
     isset($_POST['b']) &&
@@ -32,9 +31,7 @@ if (isset($_POST['a']) &&
 ) {
     $a = $_POST['a'];
     $b = $_POST['b'];
-
     echo "Pole prostokata wynosi: " . ($a * $b);
-
 } else {
     echo "blad";
 }

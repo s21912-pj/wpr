@@ -45,19 +45,15 @@ if (isset($_POST['a']) &&
         $x = $y;
         $y = $temp;
     }
-// 10 9 4
     if ($a > $b) {
         swap($a, $b);
     }
-
     if ($b > $c) {
         swap($b, $c);
     }
-
     if ($a > $b) {
         swap($a, $b);
     }
-
     echo "ASC " . $a . ", " . $b . ", " . $c . "<br />";
     echo "DESC: " . $c . ", " . $b . ", " . $a;
 

@@ -14,9 +14,7 @@
 </head>
 <body>
 <?php
-
-echo round(sqrt(pi()), 2);
-
+    echo round(sqrt(pi()), 2);
 ?>
 
 </body>
