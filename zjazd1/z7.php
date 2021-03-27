@@ -5,12 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>zad_7</title>
-    <style>
-        html {
-            background: #565556;
-            color: #FFF;
-        }
-    </style>
 </head>
 <body>
 <form action="z7.php" method="POST">
@@ -67,7 +61,7 @@ if (isset($_POST['month']) &&
             break;
     }
 } else {
-    echo "blad";
+    echo "BŁĄD";
 }
 ?>
 </body>

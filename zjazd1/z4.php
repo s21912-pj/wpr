@@ -5,12 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>zad4</title>
-    <style>
-        html {
-            background: #565556;
-            color: #FFF;
-        }
-    </style>
 </head>
 <body>
 <form action="z4.php" method="POST">
