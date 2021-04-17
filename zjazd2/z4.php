@@ -20,7 +20,7 @@ function checkifPrime($number)
     if ($number == 1) {
         return false;
     }
-    if ($number == 2) {
+    else if ($number == 2) {
         return true;
     }
     $value = sqrt($number);
@@ -30,11 +30,7 @@ function checkifPrime($number)
             break;
         }
     }
-    if ($value == $i - 1) {
-        return true;
-    } else {
-        return false;
-    }
+   return ($value == $i - 1) ? true : false;
 }
 if (isset($_POST['num'])) {
     if (!is_numeric($_POST['num']) || $_POST['num'] <= 0) {
